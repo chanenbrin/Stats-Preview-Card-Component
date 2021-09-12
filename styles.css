@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+.wrapper {
+  width: 90%;
+  height: 850px;
+  margin: 30px auto;
+  padding: 0;
+  border-radius: 10px;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.img {
+  width: 100%;
+  height: 248px;
+  padding: 0;
+  margin: 0;
+  background-color: hsl(277, 64%, 61%);
+  background-image: url(./images/image-header-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 10px 10px 0 0;
+  background-blend-mode: luminosity;
+  opacity: .7;
+  
+}
+
+.content {
+  width: 100%;
+}
+
+.content h1 {
+  width: 80%;
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-weight: 700;
+  margin: 50px auto 0;
+}
+
+.content span {
+  color: hsl(277, 64%, 61%);
+}
+
+.content p{
+  width: 90%;
+  font-family: 'Inter', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: center;
+  font-size: 0.9375rem;
+  margin: 20px auto 0;
+  line-height: 1.5;
+}
+
+.content h2 {
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  position: relative;
+  bottom: 255px;
+  margin-bottom: 65px;
+}
+
+.content h5{
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-align: center;
+  font-weight: 400;
+  margin-top: 80px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1000px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 0;
+    border-radius: 10px;
+    background-color: hsl(244, 38%, 16%);
+  }
+
+  .img {
+    width: 500px;
+    height: 400px;
+    background-image: url(./images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    float: right;
+    background-size: 100%;
+    background-position: inherit;
+    border-radius: 0 10px 10px 0;
+  }
+  .content {
+    width: 370px;
+    height: 400px;
+    float: left;
+  }
+  .content h1 {
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700; 
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .content p{
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+    font-size: 0.75rem;
+    margin-top: 30px;
+    margin-left: 50px;
+    line-height: 1.8;
+  }
+  .content h2 {
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin: 300px 0 0 60px;
+    display: inline;
+    font-weight: 700;
+    float: left;
+  }
+
+  .content h5{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.75rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin: 0;
+    display: inline-block;
+    padding: 0 35px 0 0;
+    position: relative;
+    left: 60px;
+    top: 100px;
+  }
+}
